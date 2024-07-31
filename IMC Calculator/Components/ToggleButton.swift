@@ -20,7 +20,7 @@ struct ToggleButton: View {
             selectedGender = gender
         }){
             VStack{
-                Image(systemName: imageName)
+                Image(imageName)
                     .resizable()
                     .scaledToFit()
                     .frame(height: 100)

@@ -10,16 +10,16 @@ import SwiftUI
 struct IMCView: View {
     
     @State var gender: Int = 0
-    @State var height: Double = 150
-    @State var counterAge: Int = 18
+    @State var height: Double = 170
+    @State var counterAge: Int = 25
     @State var counterWeight: Int = 70
     
     var body: some View {
         NavigationView {
             VStack {
                 HStack{
-                    ToggleButton(text: "Hombre", imageName: "star.fill", gender: 0, selectedGender: $gender)
-                    ToggleButton(text: "Mujer", imageName: "heart.fill", gender: 1, selectedGender: $gender)
+                    ToggleButton(text: "Hombre", imageName: "hombre", gender: 0, selectedGender: $gender)
+                    ToggleButton(text: "Mujer", imageName: "mujer", gender: 1, selectedGender: $gender)
                 }
                 HeightCalculator(selectedHeight: $height)
                 HStack {
