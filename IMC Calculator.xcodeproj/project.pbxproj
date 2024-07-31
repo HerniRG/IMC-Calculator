@@ -17,6 +17,7 @@
 		6607E4C02C595BBC00CC766C /* CounterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607E4BF2C595BBC00CC766C /* CounterButton.swift */; };
 		6607E4C22C595BD000CC766C /* IMCCalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607E4C12C595BD000CC766C /* IMCCalculateButton.swift */; };
 		6607E4C42C595BDB00CC766C /* TextComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607E4C32C595BDA00CC766C /* TextComponents.swift */; };
+		664391A22C5A96BB00BC6451 /* InformationViewResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664391A12C5A96BB00BC6451 /* InformationViewResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6607E4BF2C595BBC00CC766C /* CounterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterButton.swift; sourceTree = "<group>"; };
 		6607E4C12C595BD000CC766C /* IMCCalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCCalculateButton.swift; sourceTree = "<group>"; };
 		6607E4C32C595BDA00CC766C /* TextComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponents.swift; sourceTree = "<group>"; };
+		664391A12C5A96BB00BC6451 /* InformationViewResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				6607E4BF2C595BBC00CC766C /* CounterButton.swift */,
 				6607E4C12C595BD000CC766C /* IMCCalculateButton.swift */,
 				6607E4C32C595BDA00CC766C /* TextComponents.swift */,
+				664391A12C5A96BB00BC6451 /* InformationViewResult.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				6607E4BE2C595BAE00CC766C /* HeightCalculator.swift in Sources */,
 				6607E4C02C595BBC00CC766C /* CounterButton.swift in Sources */,
 				6607E4BC2C595B9B00CC766C /* ToggleButton.swift in Sources */,
+				664391A22C5A96BB00BC6451 /* InformationViewResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
