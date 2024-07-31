@@ -99,7 +99,7 @@ struct IMCResult: View {
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/tu_usuario/imc-calculator.git
+   git clone https://github.com/HerniRG/IMC-Calculator.git
    ```
 2. Abre el proyecto en Xcode.
 3. Compila y ejecuta la aplicación en un simulador o dispositivo físico.
